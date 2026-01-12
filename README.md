@@ -8,14 +8,18 @@
 
 Base58-encoded UUID library for Rust with minimal dependencies.
 
+🌐 **[Try the online converter at b58uuid.io](https://b58uuid.io)**
+
 ## Why This Library?
 
-- **Compact**: 22 characters instead of 36
-- **URL-safe**: No special characters that need escaping
-- **Unambiguous**: Uses Bitcoin's Base58 alphabet (excludes 0, O, I, l)
-- **Fast**: Optimized encoding/decoding with lookup tables
-- **Safe**: Memory-safe by design (Rust guarantees)
-- **Cross-platform**: Works on Linux, macOS, Windows, iOS, Android, WASM
+Convert standard 36-character UUIDs to compact 22-character Base58 format:
+
+- **Significantly shorter** - From 36 to 22 characters: `550e8400-e29b-41d4-a716-446655440000` → `BWBeN28Vb7cMEx7Ym8AUzs`
+- **URL-safe** - No special characters that need escaping
+- **Unambiguous** - Uses Bitcoin's Base58 alphabet (excludes 0, O, I, l)
+- **Fast** - Optimized encoding/decoding with lookup tables
+- **Safe** - Memory-safe by design (Rust guarantees)
+- **Cross-platform** - Works on Linux, macOS, Windows, iOS, Android, WASM
 
 ## Installation
 
@@ -100,6 +104,21 @@ Without `getrandom`, we would need to manually implement platform-specific code 
 ```bash
 cargo test
 ```
+
+## Other Language Implementations
+
+B58UUID is available in multiple languages:
+
+- **Go**: [b58uuid-go](https://github.com/b58uuid/b58uuid-go) - Available on [pkg.go.dev](https://pkg.go.dev/github.com/b58uuid/b58uuid-go)
+- **JavaScript/TypeScript**: [b58uuid-js](https://github.com/b58uuid/b58uuid-js) - Available on [npm](https://www.npmjs.com/package/b58uuid)
+- **Python**: [b58uuid-py](https://github.com/b58uuid/b58uuid-py) - Available on [PyPI](https://pypi.org/project/b58uuid/)
+- **Java**: [b58uuid-java](https://github.com/b58uuid/b58uuid-java) - Available on [Maven Central](https://central.sonatype.com/artifact/io.b58uuid/b58uuid)
+
+## Resources
+
+- 🌐 [Online Converter](https://b58uuid.io) - Try B58UUID in your browser
+- 📚 [Documentation](https://docs.rs/b58uuid)
+- 🐛 [Report Issues](https://github.com/b58uuid/b58uuid-rs/issues)
 
 ## License
 
